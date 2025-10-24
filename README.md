@@ -50,4 +50,5 @@ Shared business model analytics for local advertisers.
 - 5k max per day as buy postage strategy -> split, call it for now splitN
 - algorithm to identify the set of great neighborhoods << splitN on max from best as type of rte
 - simple local caching for faster load times reduce out req
+- **important** if cache, we should be able to manually fetch to check paths, as the can update so set as put, while keeping perstwith date
 
