@@ -12,8 +12,9 @@ go get github.com/grgorien/usps-eddm-go
 
 --------------------------------------------
 ### Understanding:
-url; https://gis.usps.com/arcgis/rest/services/EDDM/selectZIP/GPServer/routes/execute?f=json&env:outSR=4326&ZIP=%7BZIP_CODE%7D&Rte_Box=R&UserName=EDDM
 --------------------------------------------
+url; https://gis.usps.com/arcgis/rest/services/EDDM/selectZIP/GPServer/routes/execute?f=json&env:outSR=4326&ZIP=%7BZIP_CODE%7D&Rte_Box=R&UserName=EDDM
+
 ## Context:
 
 We define as residential and business routes OR residential routes only, question would be if data get's affected on full query response.
@@ -21,6 +22,7 @@ We define as residential and business routes OR residential routes only, questio
 We can map but geometry will be hard to reverse, so it's best to call out now based on rte type.
 
 ## Params:
+
 **endpoint:** https://gis.usps.com/arcgis/rest/services/EDDM/selectZIP/GPServer/routes/execute?f=json&env:outSR=4326&ZIP=12345&Rte_Box=R&UserName=EDDM
 | Parameter | Type | Required | Description | Example |
 |------------|-------|-----------|--------------|----------|
