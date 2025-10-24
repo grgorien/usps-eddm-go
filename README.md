@@ -8,3 +8,11 @@ This library wraps the USPS EDDM API[](https://gis.usps.com/) to make it easier 
 ## Installation
 ```bash
 go get github.com/grgorien/usps-eddm-go
+
+
+--------------------------------------------
+
+### Understanding:
+url; https://gis.usps.com/arcgis/rest/services/EDDM/selectZIP/GPServer/routes/execute?f=json&env:outSR=4326&ZIP=%7BZIP_CODE%7D&Rte_Box=R&UserName=EDDM
+--------------------------------------------
+
