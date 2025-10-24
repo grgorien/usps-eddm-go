@@ -21,6 +21,12 @@ We define as residential and business routes OR residential routes only, questio
 
 We can map but geometry will be hard to reverse, so it's best to call out now based on rte type.
 
+After some testing, we can notice that the official site, also does not practice geometry reduce, instead it's based on the count, but pricing data get's affected, which can be reversed based on the actual pricing currently as notice from here: Cost per mailpiece is $0.247.
+
+So paths don't reduce and they get rendered regardless on the client, so the actual solution can be just map based on the actual key of residential if selected on choice type else as default get hosted, and the finally the update on the approx cost pricing ba
+
+Also type of B is not actually business it's noticed as PO boxes which defeat the point based on this product utility usage.
+
 ## Params:
 
 **endpoint:** https://gis.usps.com/arcgis/rest/services/EDDM/selectZIP/GPServer/routes/execute?f=json&env:outSR=4326&ZIP=12345&Rte_Box=R&UserName=EDDM
